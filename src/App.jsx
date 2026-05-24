@@ -17,7 +17,9 @@ export default function App() {
 
   // Data sudah siap
   return (
-    <div className="min-h-screen flex flex-col">
+    <div className="min-h-screen flex flex-col transition-colors duration-300
+                bg-gray-950 dark:bg-gray-950
+                [html:not(.dark)_&]:bg-slate-50">
       <Navbar total={allPokemon.length} />
 
       <main className="flex-1">

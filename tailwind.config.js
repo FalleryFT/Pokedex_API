@@ -22,6 +22,7 @@ export default {
           teal:   '#14B8A6',
         },
       },
+      darkMode: 'class',
       animation: {
         'spin-slow': 'spin 3s linear infinite',
         'fade-in': 'fadeIn 0.3s ease forwards',
